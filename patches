@@ -1,0 +1,10 @@
+cd frameworks/base
+git fetch https://github.com/morphicts/android_frameworks_base stable/cm-13.0-ZNH2K && git cherry-pick 568ea00a66e6e386df3b511dc65363506df02ea1
+cd ../native
+git fetch https://github.com/morphicts/android_frameworks_native stable/cm-13.0-ZNH2K && git cherry-pick 89122dcfd348421ed2c5034f4d612fea8c853b6e
+cd ../opt/timezonepicker
+git fetch http://review.cyanogenmod.org/CyanogenMod/android_frameworks_opt_timezonepicker refs/changes/30/142530/1 && git cherry-pick FETCH_HEAD
+cd ../../../
+
+
+

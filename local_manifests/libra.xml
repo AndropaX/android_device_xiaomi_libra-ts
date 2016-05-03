@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<!-- Removals -->
+	
+	<remove-project name="CyanogenMod/android_external_jpeg" />
+        
+
+	<!-- Device -->
+  	<project path="device/xiaomi/libra" name="morphicts/android_device_xiaomi_libra" remote="github" revision="cm-13.0" />
+
+	<!-- Kernel -->
+  	<project path="kernel/xiaomi/libra" name="morphicts/android_kernel_xiaomi_libra" remote="github" revision="cm-13.0" />
+
+	
+
+	<!-- QCOM common -->
+  	<project path="device/qcom/common" name="CyanogenMod/android_device_qcom_common" remote="github" revision="stable/cm-13.0-ZNH2K"/>
+
+   	<!-- Stlport cm-13.0 branch -->
+   	<project path="external/stlport" name="CyanogenMod/android_external_stlport" remote="github" revision="cm-13.0" />
+
+	<!-- BoringSsl compat cm-13.0 branch -->
+   	<project path="external/sony/boringssl-compat" name="morphicts/android_external_sony_boringssl-compat" remote="github" revision="cm-13.0" />
+
+	<!-- JPEG -->
+   	<project path="external/jpeg" name="morphicts/android_external_jpeg" remote="github" revision="stable/cm-13.0-ZNH2K"/>
+
+	<!-- TWRP -->
+	<project path="bootable/recovery-twrp" name="omnirom/android_bootable_recovery" remote="github" revision="android-6.0" />
+
+	<!-- busybox for TWRP cm-13.0 branch -->
+	<project path="external/busybox" name="CyanogenMod/android_external_busybox" remote="github" revision="cm-13.0" />
+
+
+</manifest>
