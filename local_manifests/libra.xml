@@ -7,7 +7,7 @@
         
 
 	<!-- Device -->
-  	<project path="device/xiaomi/libra" name="morphicts/android_device_xiaomi_libra" remote="github" revision="cm-13.0" />
+  	<project path="device/xiaomi/libra" name="AndropaX/android_device_xiaomi_libra" remote="github" revision="master" />
 
 	<!-- Kernel -->
   	<project path="kernel/xiaomi/libra" name="morphicts/android_kernel_xiaomi_libra" remote="github" revision="cm-13.0" />
